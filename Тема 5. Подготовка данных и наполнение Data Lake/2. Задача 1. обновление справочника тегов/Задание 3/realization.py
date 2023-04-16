@@ -46,3 +46,5 @@ candidates.describe().show(10, False)
 # candidates.write\
 #         .mode('append')\
 #         .parquet(path_save_dir)
+
+# 8IrkD1toNn

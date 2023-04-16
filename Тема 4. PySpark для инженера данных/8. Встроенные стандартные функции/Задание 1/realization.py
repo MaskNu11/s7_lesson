@@ -22,3 +22,5 @@ events_curr_day = events.withColumn('hours', F.hour(F.col('event.datetime'))) \
 
 
 events_curr_day.show(10)
+
+# 5T3T8hAzm0

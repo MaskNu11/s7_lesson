@@ -21,3 +21,5 @@ path = "/user/master/data/snapshots/channels/actual/*.parquet"
 path = '/user/masknu11/analytics/test'
 df = spark.read.load(path)
 df.select('channel_type').orderBy('channel_type').distinct().show()
+
+# 3TkchiZud0

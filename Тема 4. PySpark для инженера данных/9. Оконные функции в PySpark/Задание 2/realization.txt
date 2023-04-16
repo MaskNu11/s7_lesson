@@ -21,3 +21,5 @@ root
  |    |    |-- element: string (containsNull = true)
  |    |-- user: string (nullable = true)
  |-- event_type: string (nullable = true)
+
+ ESLk6ckjLB

@@ -29,3 +29,5 @@ window = Window().orderBy('purchase_amount')
 
 df_window = df.withColumn('row_number', F.row_number().over(window))
 df_window.select('dt', 'user_id', 'purchase_amount', 'row_number').show() 
+
+# Zv6vxsDQLo

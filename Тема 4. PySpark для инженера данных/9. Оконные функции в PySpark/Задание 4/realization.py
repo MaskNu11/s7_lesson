@@ -28,3 +28,5 @@ df = df.withColumn('max', F.max('purchase_amount').over(window)) \
         .withColumn('min', F.min('purchase_amount').over(window))
 
 df.select('user_id', 'max', 'min').distinct().show(10, False)
+
+# B56jrrrxSz

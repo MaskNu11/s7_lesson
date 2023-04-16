@@ -13,3 +13,5 @@ InMemoryTableScan [title#1496]
                      +- *(3) Project [book_id#1502L]
                         +- *(3) Filter isnotnull(book_id#1502L)
                            +- *(3) Scan ExistingRDD[book_id#1502L,Library_id#1503]
+
+einWLzgTYR

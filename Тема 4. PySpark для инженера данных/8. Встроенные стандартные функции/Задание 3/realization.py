@@ -29,3 +29,5 @@ df = spark.read.json(path)
 df =df.filter(F.col('event_type')=='reaction').groupBy(F.col('event.reaction_from')).count()
 # df.orderBy(F.col('count').desc()).limit(1).show()
 df.select(F.max('count')).show()
+
+# lXFKRx00xQ

@@ -113,3 +113,6 @@ candidates.write\
         .parquet(path_save_dir)
 
 # input_paths('2022-05-31', 7)
+
+
+# yuYyLHDDSz
